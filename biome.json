@@ -1,0 +1,15 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.8/schema.json",
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": false,
+      "correctness": {
+        "useImportExtensions": {
+          "level": "error",
+          "options": { "forceJsExtensions": true }
+        }
+      }
+    }
+  }
+}
